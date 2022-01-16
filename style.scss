@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto:wght@300&display=swap");
+
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  > article {
+    margin-top: 100px;
+    > header {
+      width: 261px;
+      height: 65px;
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 47px;
+      color: #000000;
+    }
+    > h5 {
+      width: 210px;
+      height: 45px;
+      font-family: Cormorant SC;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 36px;
+      color: #4c7180;
+      margin: 0;
+    }
+    > p {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+
+      color: #000000;
+    }
+  }
+  > main {
+    > .username,
+    .password {
+      margin-top: 10px;
+      height: 51px;
+      width: 314px;
+      background: #efefef;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .username {
+      display: flex;
+      > p {
+        margin-left: 20px;
+      }
+    }
+    > .password {
+      display: flex;
+      align-items: center;
+      gap: 180px;
+      > p {
+        margin-left: 20px;
+      }
+    }
+  }
+  > .btn {
+    position: absolute;
+    width: 314px;
+    height: 51px;
+    left: 38px;
+    top: 460px;
+    background: #4c7180;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  > p {
+    position: absolute;
+    width: 267px;
+    height: 14px;
+    left: 38px;
+    top: 517px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+  }
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Roboto:wght@300&display=swap");
+body {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  height: auto;
+}
+
+body > article {
+  margin-top: 100px;
+}
+
+body > article > header {
+  width: 261px;
+  height: 65px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+}
+
+body > article > h5 {
+  width: 210px;
+  height: 45px;
+  font-family: Cormorant SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4c7180;
+  margin: 0;
+}
+
+body > article > p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+body > main > .username,
+body > main .password {
+  margin-top: 10px;
+  height: 51px;
+  width: 314px;
+  background: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+body > main .username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body > main .username > p {
+  margin-left: 20px;
+}
+
+body > main > .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 180px;
+}
+
+body > main > .password > p {
+  margin-left: 20px;
+}
+
+body > .btn {
+  position: absolute;
+  width: 314px;
+  height: 51px;
+  left: 38px;
+  top: 460px;
+  background: #4c7180;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+body > p {
+  position: absolute;
+  width: 267px;
+  height: 14px;
+  left: 38px;
+  top: 517px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #000000;
+}
+/*# sourceMappingURL=style.css.map */
