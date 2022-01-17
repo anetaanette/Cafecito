@@ -3,6 +3,7 @@
 body {
   background: white;
   display: flex;
+  flex-shrink: 1;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -23,15 +24,15 @@ body {
       position: absolute;
       width: 261px;
       height: 65px;
-      left: 37px;
-      top: 105px;
+      left: 9%;
+      top: 15%;
     }
     > h5 {
       position: absolute;
       width: 210px;
       height: 45px;
-      left: 38px;
-      top: 85px;
+      left: 10%;
+      top: 13%;
       font-family: Cormorant SC;
       font-style: normal;
       font-weight: bold;
@@ -49,8 +50,8 @@ body {
       position: absolute;
       width: 274px;
       height: 41px;
-      left: 38px;
-      top: 176px;
+      left: 10%;
+      top: 26%;
     }
   }
   > main {

@@ -4,6 +4,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -35,16 +37,16 @@ body > article > header {
   position: absolute;
   width: 261px;
   height: 65px;
-  left: 37px;
-  top: 105px;
+  left: 9%;
+  top: 15%;
 }
 
 body > article > h5 {
   position: absolute;
   width: 210px;
   height: 45px;
-  left: 38px;
-  top: 85px;
+  left: 10%;
+  top: 13%;
   font-family: Cormorant SC;
   font-style: normal;
   font-weight: bold;
@@ -63,8 +65,8 @@ body > article > p {
   position: absolute;
   width: 274px;
   height: 41px;
-  left: 38px;
-  top: 176px;
+  left: 10%;
+  top: 26%;
 }
 
 body > main {
